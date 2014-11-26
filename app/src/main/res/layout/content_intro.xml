@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/intro_left"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/detail_intro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="@string/intro_text" />
+    <TextView
+        android:id="@+id/detail_intro_user_welcome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:text="@string/welcome" />
+    <TextView
+        android:id="@+id/detail_intro_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:text="@string/placeholder" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bluebiit_logo_med"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/intro_left"
+        android:orientation="vertical"
+        android:id="@+id/intro_centre"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/intro_status_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/intro_status_title" />
+        <TextView
+            android:id="@+id/intro_status_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_accounts" />
+        <TextView
+            android:id="@+id/intro_status_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_apps" />
+        <TextView
+            android:id="@+id/intro_status_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_browsers" />
+        <TextView
+            android:id="@+id/intro_status_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_camera" />
+        <TextView
+            android:id="@+id/intro_status_gest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_gestures" />
+        <TextView
+            android:id="@+id/intro_status_icons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_screen_icons" />
+        <TextView
+            android:id="@+id/intro_status_sounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_sounds" />
+        <TextView
+            android:id="@+id/intro_status_wp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_wallpaper" />
+        <TextView
+            android:id="@+id/intro_status_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/tab_lbl_wifi" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/intro_centre"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/intro_status_title_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_acc_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_app_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_browser_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_camera_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_gest_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_icons_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_sounds_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_wp_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+        <TextView
+            android:id="@+id/intro_status_wifi_bool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/intro_status" />
+
+    </LinearLayout>
+</LinearLayout>

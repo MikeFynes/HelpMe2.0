@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">HelpMe2.0</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="contentDescription" translatable="false">Instruction image</string>
+    <string name="video_btn" translatable="false">Pause</string>
+    <string name="placeholder" translatable="false">NOT COMPLETED</string>
+
+    <!--START PAGE STRINGS-->
+    <string name="start_English" translatable="false">English</string>
+    <string name="start_Finnish" translatable="false">Finnish</string>
+
+    <!--TAB ACCOUNTS PAGE STRINGS-->
+    <string name="tab_lbl_accounts" translatable="false">Accounts</string>
+
+
+    <!--TAB APPLICATIONS PAGE STRINGS-->
+    <string name="tab_lbl_apps" translatable="false">Applications</string>
+
+
+    <!--TAB BROWSERS PAGE STRINGS-->
+    <string name="tab_lbl_browsers" translatable="false">Browsers</string>
+
+
+    <!--TAB Camera PAGE STRINGS-->
+    <string name="tab_lbl_camera" translatable="false">Camera</string>
+    <string name="detail_camera1" translatable="false">To take a picture, click on camera.</string>
+    <string name="detail_camera2" translatable="false">Then take a picture of anything you want.</string>
+    <string name="detail_camera3" translatable="false">You can also take a video by switching to video mode.</string>
+
+    <!--TAB Gestures PAGE STRINGS-->
+    <string name="tab_lbl_gestures" translatable="false">Gestures</string>
+
+
+    <!--TAB Sounds PAGE STRINGS-->
+    <string name="tab_lbl_sounds" translatable="false">Sounds</string>
+    <string name="detail_sound1" translatable="false">To change sound settings, find sound from settings.</string>
+    <string name="detail_sound2" translatable="false">Select volumes.\n Then you can change the volumes of music,\n videos, notifications and alarms.\n You can practice on the sliders below</string>
+
+
+    <!--TAB Wallpaper PAGE STRINGS-->
+    <string name="tab_lbl_wallpaper" translatable="false">Wallpaper</string>
+
+
+    <!--TAB SCREEN ICON PAGE STRINGS-->
+    <string name="tab_lbl_screen_icons" translatable="false">Screen Icons</string>
+
+    <!--TAB WIFI PAGE STRINGS-->
+    <string name="detail_wifi1" translatable="false">1. Go to Settings</string>
+    <string name="detail_wifi2" translatable="false">2. Put Wi-Fi on</string>
+    <string name="detail_wifi3" translatable="false">3. Choose your network and click on it\n4. Enter your password \n5. Click Connect</string>
+    <string name="tab_lbl_wifi" translatable="false">Wi-Fi</string>
+    <string name="intro_text" translatable="false">Navigate through tabs by holding and swiping. \n  The blue tab is the current active topic.</string>
+    <string name="tab_lbl_intro" translatable="false">Intro</string>
+    <string name="camera_test" translatable="false">Click the logo below to start practising!!</string>
+    <string name="str" translatable="false">Touch this screen to see the actions!</string>
+    <string name="gest_down" translatable="false">Action was down!</string>
+    <string name="gest_up" translatable="false">Action was up!</string>
+    <string name="gest_instructions" translatable="false">Hold and drag below to see the action taken!</string>
+    <string name="action_move" translatable="false"> Action was move! </string>
+    <string name="action_down" translatable="false"> Action was down! </string>
+    <string name="action_up" translatable="false"> Action was Up! </string>
+    <string name="completed" translatable="false">COMPLETED!</string>
+    <string name="notComplete" translatable="false">NOT COMPLETED</string>
+    <string name="intro_status" translatable="false">Status</string>
+    <string name="intro_status_title" translatable="false">Tutorial</string>
+    <string name="start_One" translatable="false">User One</string>
+    <string name="start_Two" translatable="false">User Two</string>
+    <string name="welcome" translatable="false">Welcome:</string>
+    <string name="newUser">Add New User</string>
+    <string name="start_instruct">Enter your name and click Add User to create your entry!</string>
+
+
+    <!--
+     INTRO FRAGMENT STATUS STRINGS
+    -->
+
+
+
+    <!--
+        <string name="title_topic_detail">Back to list</string>
+        <string name="contentDescription">Instruction image</string>
+        <string name="detail_language">1. To change the languge, click on settings.\n2. Choose language and input\n3. Click on language, scroll down and choose the language you want to use</string>
+        <string name="detail_sharing">Due to the fact that the tablet is shared, it is important that you do not save personal documents and pictures on this tablet. Other people can see your personal files and use them for other goals.\n\nIf you want to save personal documents or pictures you can use online workspaces (GoogleDrive, Skydrive or Dropbox). After saving your files to the workspace check that you have deleted those from the tablet.\n\nRemember always to log out for the accounts that you use on this tablet.</string>
+        <string name="detail_wifi1">1. Go to Settings</string>
+        <string name="detail_wifi2">2. Put Wi-Fi on</string>
+        <string name="detail_wifi3">3. Choose your network and click on it\n4. Enter your password \n5. Click Connect</string>
+        <string name="detail_email1">1. If you have an email-address, go to the website or application and enter your email and password.\n\n2. If you don’t have an email account yet, move to the step 3. and learn how to make your own Gmail-address.\n\n3. Go to the address www.gmail.com.\n\n4. Click on Create an account.</string>
+        <string name="detail_email2">5. Fill in the data and go forward.\n\n6. Remember to write your username and password down, because you will need them to log in.</string>
+        <string name="detail_email3">6. If you need help using the Gmail-application, go to the application settings and find help.</string>
+
+        <string name="detail_navigation1">All Applications -button: Shows what applications and widgets you have installed in your tablet.</string>
+        <string name="detail_navigation2">Back-button: Go to the previous screen you have visited.</string>
+        <string name="detail_navigation3">Home-button: Return to the home screen.</string>
+        <string name="detail_navigation4">Recent apps -button: Shows the applications you have previously used.</string>
+
+        <string name="widget1">Need help?</string>
+        <string name="widget2"> Click this for\n more instructions</string>
+
+        -->
+
+
+</resources>

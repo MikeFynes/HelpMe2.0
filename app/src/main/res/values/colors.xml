@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="title_background">#99cc00</color>
+    <color name="completed">#ff1dcc43</color>
+    <color name="not_completed">#ffcc0900</color>
+    <color name="topiclist_background">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="tab_selected">#0099cc</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

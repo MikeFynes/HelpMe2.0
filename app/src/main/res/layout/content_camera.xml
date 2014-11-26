@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/camera_layout">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_table">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/camera1"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/detail_camera1" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/camera2"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/detail_camera2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/camera3"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/detail_camera3" />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/camera_start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/camera_table"
+        android:text="@string/camera_test"/>
+    <ImageView
+        android:id="@+id/camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/camera_table"
+        android:layout_below="@id/camera_start_text"
+        android:src="@drawable/ic_launcher"
+        />
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    <TextView
+        android:id="@+id/tv_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/not_completed"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        />
+        </RelativeLayout>
+
+
+
+</RelativeLayout>
